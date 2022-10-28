@@ -1,3 +1,4 @@
+
 var app = angular.module('catsvsdogs', []);
 var socket = io.connect({transports:['polling']});
 
