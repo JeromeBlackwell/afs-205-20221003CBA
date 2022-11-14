@@ -767,3 +767,292 @@ ubuntu-bionic login: [[0;32m  OK  [0m] Finished [0;1;39mGRUB failed boot dete
 [18119.450406] rcu: INFO: rcu_sched detected stalls on CPUs/tasks:
 [18119.824223] rcu: 	0-...0: (1 GPs behind) idle=3a2/1/0x4000000000000000 softirq=75617/75639 fqs=3 
 [18146.867409] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:2:17364]
+[21875.924617] rcu: INFO: rcu_sched self-detected stall on CPU
+[21875.940660] rcu: 	1-...!: (723 ticks this GP) idle=ac6/1/0x4000000000000002 softirq=71713/71713 fqs=0 
+[21876.985471] rcu: rcu_sched kthread starved for 113356 jiffies! g141965 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x402 ->cpu=0
+[21877.464498] rcu: RCU grace-period kthread stack dump:
+[21878.033529] rcu: INFO: rcu_sched self-detected stall on CPU
+[21878.050449] rcu: 	1-...!: (724 ticks this GP) idle=ac6/1/0x4000000000000002 softirq=71713/71713 fqs=0 
+[21878.092580] rcu: rcu_sched kthread starved for 938517 jiffies! g141965 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x0 ->cpu=0
+[21878.974412] rcu: RCU grace-period kthread stack dump:
+[26938.797038] rcu: INFO: rcu_sched detected stalls on CPUs/tasks:
+[26938.811650] rcu: All QSes seen, last rcu_sched kthread activity 152688 (4300528436-4300375748), jiffies_till_next_fqs=1, root ->qsmask 0x0
+[26939.415013] rcu: rcu_sched kthread starved for 152688 jiffies! g142149 f0x2 RCU_GP_WAIT_FQS(5) ->state=0x0 ->cpu=1
+[26939.434568] rcu: RCU grace-period kthread stack dump:
+[26939.820195] rcu: INFO: rcu_sched detected stalls on CPUs/tasks:
+[26940.154434] rcu: All QSes seen, last rcu_sched kthread activity 1252455 (4301628203-4300375748), jiffies_till_next_fqs=1, root ->qsmask 0x0
+[26940.179353] rcu: rcu_sched kthread starved for 1252455 jiffies! g142149 f0x2 RCU_GP_WAIT_FQS(5) ->state=0x0 ->cpu=1
+[26940.597888] rcu: RCU grace-period kthread stack dump:
+[26943.001766] watchdog: BUG: soft lockup - CPU#0 stuck for 4667s! [snapd:18042]
+[26972.273324] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:5:18025]
+[26972.308929] watchdog: BUG: soft lockup - CPU#0 stuck for 22s! [swapper/0:0]
+[30779.307301] rcu: INFO: rcu_sched self-detected stall on CPU
+[30779.891468] rcu: 	1-...!: (110 ticks this GP) idle=af2/1/0x4000000000000002 softirq=73025/73025 fqs=0 
+[30779.916382] rcu: rcu_sched kthread starved for 401970 jiffies! g142237 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x402 ->cpu=0
+[30780.538495] rcu: RCU grace-period kthread stack dump:
+[30781.018453] rcu: INFO: rcu_sched self-detected stall on CPU
+[30781.613662] rcu: 	1-...!: (111 ticks this GP) idle=af2/1/0x4000000000000002 softirq=73025/73025 fqs=1 
+[30781.644071] rcu: rcu_sched kthread starved for 550183 jiffies! g142237 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x402 ->cpu=0
+[30782.890638] rcu: RCU grace-period kthread stack dump:
+[30872.420127] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[30900.369521] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[30928.343891] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[30956.348644] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[30984.390955] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31012.356602] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31040.400243] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31068.388492] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31096.399960] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31124.422302] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31152.439429] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31180.443565] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[31208.462832] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[31236.477279] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[31264.491991] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[31292.503266] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31320.513953] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31348.556837] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31376.540473] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31404.558358] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31432.599091] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31460.592504] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31488.602580] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[31516.617847] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[31544.651425] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[31572.646666] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[31600.664310] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31628.666551] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31656.689656] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31684.702164] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31712.710543] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31740.728308] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31768.753904] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31796.753293] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[31824.782600] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[31852.779326] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[31880.808747] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[31908.810866] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31936.827501] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31964.843110] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[31992.856555] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32020.870852] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32048.900347] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32076.897567] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32104.906963] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[32133.002901] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[32160.940011] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[32189.006313] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[32216.966548] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32244.975490] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32272.989061] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32301.007203] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32329.022922] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32357.062229] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32385.043724] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32413.062765] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[32441.079484] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[32469.100431] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[32497.105981] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[32525.134110] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32553.146866] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32581.149111] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32609.159328] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32637.186294] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32665.200092] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32693.250137] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32721.217810] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[32749.229711] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[32777.244831] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[32805.258088] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[32833.299560] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32861.292715] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32889.317395] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32917.327232] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32945.333088] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[32973.347145] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[33001.356167] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(md-udevd):18133]
+[33029.390706] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [(md-udevd):18133]
+[34534.345562] rcu: INFO: rcu_sched self-detected stall on CPU
+[34534.368347] rcu: 	0-...!: (1 GPs behind) idle=002/0/0x1 softirq=78246/78248 fqs=0 
+[34534.986612] rcu: rcu_sched kthread starved for 372459 jiffies! g142541 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x402 ->cpu=1
+[34535.609235] rcu: RCU grace-period kthread stack dump:
+[34535.609818] rcu: INFO: rcu_sched self-detected stall on CPU
+[34535.609822] rcu: 	0-...!: (1 GPs behind) idle=002/0/0x1 softirq=78246/78248 fqs=0 
+[34535.609825] rcu: rcu_sched kthread starved for 922530 jiffies! g142541 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x0 ->cpu=1
+[34535.609826] rcu: RCU grace-period kthread stack dump:
+[34562.138459] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[34590.354189] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[34618.242143] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[34646.223978] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[34674.194228] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[34702.239448] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[34730.219543] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[34758.234937] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[34786.245824] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[34814.260297] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[34842.306211] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[34870.288276] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[34898.300558] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[34926.323300] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[34954.330240] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[34982.348501] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35010.355794] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35038.370457] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[35066.395051] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[35094.406501] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[35122.419436] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[35150.429330] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35178.491287] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35206.466491] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35234.468706] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35262.485267] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35290.501943] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35318.514570] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35346.525287] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[35374.583157] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[35402.562540] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[35430.573884] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[35458.583241] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35486.599305] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35514.617272] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35542.625928] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35570.646900] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35598.650290] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35626.718987] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35654.682153] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[35682.700546] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[35710.711866] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[35738.720447] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[35766.744173] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35794.754211] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35822.776346] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35850.781190] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35878.792093] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35906.817776] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35934.832591] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[35962.911193] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[35990.876777] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[36018.869989] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[36046.878924] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[36074.910467] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36102.918152] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36130.925850] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36158.930429] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36186.945878] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36214.971268] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36242.973059] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36270.987742] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36299.002622] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[36327.021105] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[36355.041018] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[36383.062223] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[36411.062445] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36439.071366] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36467.098895] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36495.108132] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36523.112571] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36551.132624] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36579.149159] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[36607.197709] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[36635.168787] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[36663.200196] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[36691.197174] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [systemd:1]
+[36719.212347] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [systemd:1]
+[38264.562291] rcu: INFO: rcu_sched self-detected stall on CPU
+[38264.586855] rcu: 	0-...!: (1 ticks this GP) idle=00e/1/0x4000000000000002 softirq=78325/78325 fqs=1 
+[38265.234412] rcu: rcu_sched kthread starved for 381132 jiffies! g142557 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x402 ->cpu=1
+[38266.057259] rcu: RCU grace-period kthread stack dump:
+[38266.541905] rcu: INFO: rcu_sched self-detected stall on CPU
+[38266.603012] rcu: 	0-...!: (2 ticks this GP) idle=00e/1/0x4000000000000002 softirq=78325/78325 fqs=1 
+[38266.911310] rcu: rcu_sched kthread starved for 931382 jiffies! g142557 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x0 ->cpu=0
+[38267.602799] rcu: RCU grace-period kthread stack dump:
+[40411.008987] watchdog: BUG: soft lockup - CPU#1 stuck for 1962s! [(networkd):18283]
+[40412.347041] rcu: INFO: rcu_sched self-detected stall on CPU
+[40413.002976] rcu: 	0-...!: (1 ticks this GP) idle=00e/1/0x4000000000000002 softirq=78968/78968 fqs=0 
+[40413.605813] rcu: rcu_sched kthread starved for 526484 jiffies! g142709 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x402 ->cpu=0
+[40414.379135] rcu: RCU grace-period kthread stack dump:
+[40449.235445] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:1:18343]
+[40449.651814] watchdog: BUG: soft lockup - CPU#0 stuck for 22s! [cloud-id:18346]
+[40533.122630] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18328]
+[40533.424038] watchdog: BUG: soft lockup - CPU#0 stuck for 22s! [systemd-network:18382]
+[40573.243061] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [(d-logind):18399]
+[40574.103328] watchdog: BUG: soft lockup - CPU#0 stuck for 23s! [systemctl:18406]
+[43099.695825] rcu: INFO: rcu_sched self-detected stall on CPU
+[43100.352809] rcu: 	1-...!: (1 ticks this GP) idle=a0a/1/0x4000000000000002 softirq=79064/79064 fqs=0 
+[43101.484033] rcu: rcu_sched kthread starved for 20073 jiffies! g146345 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x402 ->cpu=1
+[43101.879535] rcu: RCU grace-period kthread stack dump:
+[43102.334591] rcu: INFO: rcu_sched self-detected stall on CPU
+[43102.776081] rcu: 	1-...!: (2 ticks this GP) idle=a0a/1/0x4000000000000002 softirq=79064/79064 fqs=0 
+[43103.592530] rcu: rcu_sched kthread starved for 570488 jiffies! g146345 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x0 ->cpu=1
+[43103.899716] rcu: RCU grace-period kthread stack dump:
+[43164.506363] rcu: INFO: rcu_sched detected stalls on CPUs/tasks:
+[43164.702413] rcu: 	0-...!: (0 ticks this GP) idle=32a/1/0x4000000000000000 softirq=84747/84747 fqs=0 
+[43164.998876] rcu: rcu_sched kthread starved for 15015 jiffies! g146353 f0x0 RCU_GP_WAIT_FQS(5) ->state=0x402 ->cpu=0
+[43165.130580] rcu: RCU grace-period kthread stack dump:
+[43226.378313] INFO: task journal-offline:18945 blocked for more than 121 seconds.
+[43226.537999]       Tainted: G           O L    5.4.0-122-generic #138-Ubuntu
+[43227.210253] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[43227.640040] INFO: task multipathd:508 blocked for more than 121 seconds.
+[43227.813027]       Tainted: G           O L    5.4.0-122-generic #138-Ubuntu
+[43228.191959] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[43228.466716] INFO: task kworker/u4:4:18152 blocked for more than 121 seconds.
+[43228.767771]       Tainted: G           O L    5.4.0-122-generic #138-Ubuntu
+[43228.922831] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[43347.267655] INFO: task jbd2/sda1-8:261 blocked for more than 120 seconds.
+[43347.445814]       Tainted: G           O L    5.4.0-122-generic #138-Ubuntu
+[43347.611871] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[43347.793162] INFO: task journal-offline:18945 blocked for more than 242 seconds.
+[43348.003374]       Tainted: G           O L    5.4.0-122-generic #138-Ubuntu
+[43348.137267] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[43348.273337] INFO: task multipathd:508 blocked for more than 242 seconds.
+[43348.443466]       Tainted: G           O L    5.4.0-122-generic #138-Ubuntu
+[43348.589474] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[43348.763768] INFO: task rs:main Q:Reg:674 blocked for more than 120 seconds.
+[43348.870856]       Tainted: G           O L    5.4.0-122-generic #138-Ubuntu
+[43349.048524] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[43349.206529] INFO: task kworker/u4:4:18152 blocked for more than 242 seconds.
+[43349.365510]       Tainted: G           O L    5.4.0-122-generic #138-Ubuntu
+[43349.694935] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[43349.821101] INFO: task kworker/u4:1:18952 blocked for more than 120 seconds.
+[43349.962152]       Tainted: G           O L    5.4.0-122-generic #138-Ubuntu
+[43350.171904] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[43468.066858] INFO: task jbd2/sda1-8:261 blocked for more than 241 seconds.
+[43468.262226]       Tainted: G           O L    5.4.0-122-generic #138-Ubuntu
+[43468.508411] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[46838.583993] blk_update_request: I/O error, dev sda, sector 5581824 op 0x0:(READ) flags 0x80700 phys_seg 6 prio class 0
+[46839.988123] blk_update_request: I/O error, dev sda, sector 5588992 op 0x0:(READ) flags 0x80700 phys_seg 32 prio class 0
+[46890.597420] watchdog: BUG: soft lockup - CPU#1 stuck for 24s! [kworker/1:4:18396]
+[46905.965502] watchdog: BUG: soft lockup - CPU#0 stuck for 34s! [systemd-udevd:18973]
+[46933.222108] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
+[46933.915271] watchdog: BUG: soft lockup - CPU#0 stuck for 23s! [apt-get:18534]
+[46961.079427] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
+[46988.823184] watchdog: BUG: soft lockup - CPU#1 stuck for 21s! [kworker/1:0:18955]
+[47016.927682] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
+[47044.850977] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
+[47072.917716] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47100.916214] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47128.933320] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47157.136987] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
+[47184.965068] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
+[47212.962967] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
+[47240.947645] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
+[47269.138422] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
+[47297.811183] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47325.186251] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47353.432755] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47381.018229] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47409.058238] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47437.275847] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47465.402881] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47493.254130] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
+[47522.084005] watchdog: BUG: soft lockup - CPU#1 stuck for 21s! [kworker/1:0:18955]
+[47550.074230] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47577.244691] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
+[47605.405579] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
+[47633.151226] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
+[47661.411873] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47689.208544] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47717.184193] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47745.205433] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47773.217066] watchdog: BUG: soft lockup - CPU#1 stuck for 23s! [kworker/1:0:18955]
+[47801.229658] watchdog: BUG: soft lockup - CPU#1 stuck for 22s! [kworker/1:0:18955]
