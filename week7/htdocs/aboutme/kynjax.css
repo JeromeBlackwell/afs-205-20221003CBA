@@ -1,0 +1,18 @@
+html, body {
+    background-color: #917575;
+}
+h1  {
+    color:hsl(0, 96%, 50%);
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+    margin: 5px;
+}
+nav {
+    position: fixed;
+    background-color: silver;
+    color:rgb(33, 33, 212);
+    /* width: 273px; */
+    margin: 6px;
+    margin-top: -1px;
+}
+ 
