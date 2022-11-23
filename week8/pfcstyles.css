@@ -1,0 +1,209 @@
+html, body {
+    background-image: url('graywoodgrain.jpg');
+    background-color: #917575;
+}
+h1  {
+    color:hsl(0, 96%, 50%);
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+}
+h2, h3 {
+    color:hsl(0, 96%, 50%);
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+#review {
+    background-color:hsl(0, 96%, 50%);
+    width: 200px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+}
+nav {
+    position: fixed;
+    background-color: silver;
+    color:rgb(33, 33, 212);
+    /* width: 273%; */
+    margin: 1px;
+    margin-top: -19px;
+}
+a { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(33, 33, 212);
+    text-decoration: none;
+}
+a:hover { 
+    background-color: red;
+}
+p {
+    color: whitesmoke;
+    text-emphasis: center;
+}   
+.header {
+    text-align: center;
+    padding: 32px;
+}
+.flex-container {
+    display: flex;
+    background-color: Silver;
+    justify-content: space-between;
+    height: 5%;
+    margin: 30px;
+}
+.flex-container > div {
+    background-color: 3px black;
+    border: solid 5px black;
+    margin: -6px;
+    height: 5%;
+}
+.row {
+    display: flex;
+    flex-wrap: center;
+    padding: 7px;
+    background-color: Silver;
+    align-items: flex-start ;
+    justify-content: center;
+    margin: 6%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: solid 7px black;
+}
+.column img
+{
+    /* flex: 25%; */
+    /* padding: 0px 7px 12px; */
+    margin-bottom: 15px;
+}
+#catch {
+    width: 500px;
+    height:  500px;
+}
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+}  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    border: 1% solid rgb(65, 114, 122);
+}
+img {
+    width: 102%;
+    margin-bottom: -8%;
+}    
+#cost {
+    color: whitesmoke;
+}
+#about {
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}    
+th,td {
+    height: 30px;
+    border: 2px solid whitesmoke;
+    color:   whitesmoke;
+    width: 300px;
+    background-color: black;
+}
+td {
+    text-align: center;
+}
+@media only screen and (min-width: 600px) {
+.row {
+    /* background: purple; */
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 6%;
+}
+.column {
+    flex: -25%;
+    padding: 0px 7px 15px;
+    background-color: silver;
+}
+#review {
+    background-color:hsl(0, 96%, 50%);
+    width: 500px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+}
+.flex-container > div {
+    border: solid 10px black;
+    margin: 6px;
+    height: 5%;
+}
+img {
+    margin-bottom: -6px;
+    /* margin-left: -1%; */
+}
+    .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    height: auto;
+    border: 2% solid rgb(65, 114, 122);
+    }    
+    p {
+        margin-left: 9%;
+        margin-right: 9%;
+        text-align: center;
+    }
+    #about {
+        margin-left: 19%;
+        margin-right: 17%;
+    }
+    }
+    @media only screen and (min-width: 768px) and (min-width: 1400px){
+        .row {
+            flex-direction: row;
+            margin-left: 25%;
+            margin-right: 26%;
+        }
+        .column {
+            flex: -25%;
+            padding: 0px 7px 15px;
+            background-color: silver;
+        }
+        #review {
+            background-color:hsl(0, 96%, 50%);
+            width: 600px;
+            border: 5px solid black;
+            padding: 10px;
+            margin: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            color: whitesmoke;
+        }
+        .flex-container > div {
+            border: solid 10px black;
+            margin: 6px;
+            height: 5%;
+        }
+        img {
+            margin-bottom: -6px; 
+        }
+            .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            height: auto;
+            border: 2% solid rgb(65, 114, 122);
+            }    
+            p {
+                margin-left: 9%;
+                margin-right: 9%;
+                text-align: center;
+            }
+            #about {
+                margin-left: 19%;
+                margin-right: 17%;
+            }
+        }
